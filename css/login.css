@@ -73,26 +73,6 @@ iframe {
     margin: 0 auto;
 }
 
-#missao {
-    flex-grow: 1;
-    padding: 20px;
-    justify-content: center;
-    color: white;
-}
-
-.corpo{
-    width: 900px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 300px;
-    display: block;
-}
-.corpo h2{
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-}
-
 a:hover{
     color:rgb(185, 185, 185);
 }
@@ -104,22 +84,9 @@ a:hover{
     box-sizing: border-box;
 }
 
-#alvo {
-    width: 400px;
-    float: left;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
 #login {
     margin-left: 250px;
 }
-
-
-
-
-/* login */
 
 h1{
     text-align: center;
@@ -191,5 +158,3 @@ button{
     color: white;
     text-align: center;
 }
-/* fim login */
-/* oi */
