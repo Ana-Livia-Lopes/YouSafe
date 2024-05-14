@@ -101,14 +101,14 @@ form{
     display: block;
     margin-top: 65px;
     margin-bottom: 140px;
-    box-shadow: rgba(45, 168, 34, 0.4) -5px 5px, rgba(30, 158, 32, 0.3) -10px 10px, rgba(34, 152, 28, 0.2) -15px 15px, rgba(28, 149, 34, 0.1) -20px 20px, rgba(26, 139, 51, 0.05) -25px 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 #fundo{
     background-color: #168f48e1;
     border-radius: 10px;
 }
 input{
-    width: 90%;
+    width: 95%;
     padding: 6px;
     margin-bottom: 8px;
     border: 1px solid gray;
@@ -124,14 +124,17 @@ input{
     width: 15px;
 }
 button{
-    width: 100%;
-    background-color:  rgba(136, 136, 235, 0.856);
+    width: 98%;
+    background-color: #245e3ce1;
     color: white;
     padding: 7px;
-    margin-top: 7px;
+    margin-top: 6px;
     font-size: 15px;
     font-weight: bold;
+    border: none;
+    border-radius: 5px;
 }
+
 #voltar a{
     text-decoration: none;
     color: white;
