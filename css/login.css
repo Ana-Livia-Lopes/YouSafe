@@ -29,9 +29,7 @@ footer {
     color:black;
     text-align: center;
     padding: 20px;
-    position: fixed;
     bottom: 0;
-    width: 100%;
 }
 
 #logo {
@@ -56,41 +54,14 @@ li {
 li a {
     color:black;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-}
-
-iframe {
-    display: block;
-    margin: 0 auto;
-}
-
 a:hover{
     color:rgb(185, 185, 185);
-}
-
-#apresentação {
-    flex-basis: 50%;
-    padding: 20px;
-    color: white;
-    box-sizing: border-box;
-}
-
-#login {
-    margin-left: 250px;
-}
-
-h1{
-    text-align: center;
-    color: white;
 }
 form{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -106,17 +77,18 @@ form{
 #fundo{
     background-color: #168f48e1;
     border-radius: 10px;
+    padding: 40px;
 }
 input{
     width: 95%;
     padding: 6px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     border: 1px solid gray;
     border-radius: 5px;
     font-size: 15px;
 }
 .formulario{
-    margin-top: 12px;
+    margin-top: 18px;
     font-size: 17px;
     color: white;
 }
@@ -126,15 +98,17 @@ input{
 button{
     width: 98%;
     background-color: #245e3ce1;
-    color: white;
     padding: 7px;
     margin-top: 6px;
-    font-size: 15px;
-    font-weight: bold;
     border: none;
     border-radius: 5px;
 }
-
+button a {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
 #voltar a{
     text-decoration: none;
     color: white;
@@ -160,4 +134,9 @@ button{
     margin-top: 10px;
     color: white;
     text-align: center;
+}
+#acesso{
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
 }
