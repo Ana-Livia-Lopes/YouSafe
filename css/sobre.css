@@ -127,4 +127,8 @@ a:hover{
     margin-top: 14px;
     font-size: 20px;
   }
+  .dia a{
+    text-decoration: none;
+    color: black;
+  }
 /* fim dia */
