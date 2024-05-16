@@ -41,6 +41,10 @@ nav {
     width: 1000px;;
 }
 
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
 ul {
     list-style-type: none;
     display: flex;
