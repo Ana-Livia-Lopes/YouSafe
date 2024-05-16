@@ -16,8 +16,11 @@ header {
     text-align: center;
 }
 
-h1 {
-    text-shadow: #000 -3px 3px
+#secao1 h1 {
+    text-shadow: #000 -2px 2px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
 }
 
 #container {
@@ -76,12 +79,6 @@ li a {
     text-transform: uppercase;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    color: white;
-}
-
 a:hover{
     color:rgb(185, 185, 185);
 }
@@ -113,7 +110,7 @@ a:hover{
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
-    height: 230px;
+    height: 240px;
 }
 
 #infos h3 {
@@ -128,7 +125,54 @@ a:hover{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
-
 section {
     height: 100vh;
+    border: solid 1px aliceblue;
+}
+
+#infop {
+    color: black;
+    width: 460px;
+    padding: 20px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#imp {
+    margin-left: 80px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    height: 570px;
+    width: 570px;
+}
+
+#secao2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+button {
+    background-color:rgba(0, 100, 0, 0.348);
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 18px;
+    width: 90px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#infop h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+#preco {
+    margin-top: 25px;
 }
