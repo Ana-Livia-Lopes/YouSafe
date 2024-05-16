@@ -152,6 +152,7 @@ section {
 }
 
 #secao2 {
+    background-color: rgb(234, 234, 234);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
