@@ -23,16 +23,25 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
-footer {
-    background-color:rgb(255, 249, 249);
-    color:black;
-    text-align: center;
-    padding: 20px;
+footer{
+    background-color: #0c8a3cdc;
+    color: white;
+    text-align: left;
+    padding: 10px;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#logo {
+footer a{
+    text-decoration: none;
+    color: white;
+}
+#insta{
+    width: 100px;
+    margin-left: 210px;
+}
+.logo {
     width: 200px; 
     margin-left: 0px;
 }
