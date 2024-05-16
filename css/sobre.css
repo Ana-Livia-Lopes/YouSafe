@@ -23,8 +23,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 footer{
-    background-color:rgb(255, 249, 249);
+    background-color:white;
     color:black;
     text-align: left;
     padding: 10px;
@@ -46,7 +47,6 @@ footer a{
 }
 .logo {
     width: 200px; 
-    margin-left: 0px;
 }
 
 nav {
