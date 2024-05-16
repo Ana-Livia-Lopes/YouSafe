@@ -60,7 +60,7 @@ li a {
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     text-transform: uppercase;
 }
 
@@ -68,11 +68,6 @@ h1 {
     text-align: center;
     margin-top: 50px;
     color: white;
-}
-
-iframe {
-    display: block;
-    margin: 0 auto;
 }
 
 a:hover{
@@ -95,10 +90,7 @@ a:hover{
 }
 
 .cntd {
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    font-size: 23px;
 }
 
 #infos {
@@ -106,10 +98,25 @@ a:hover{
     padding: 20px;
     width: 400px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px;
+}
+
+#infos h3 {
+    margin-bottom: 20px;
 }
 
 #cima, #lado, #vdo {
     height: 280px;
     width: 440px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+
+section {
+    height: 100vh;
 }
