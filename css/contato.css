@@ -108,6 +108,11 @@ a:hover{
     text-decoration: underline white;
     color: black;
 }
+.perfil p{
+    text-align: center;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 .perfil {
     color: rgb(0, 0, 0);
     margin-left: auto;
