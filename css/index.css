@@ -24,17 +24,25 @@ header {
     align-items: center;
 }
 
-footer {
+footer{
     background-color:rgb(255, 249, 249);
     color:black;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    padding: 10px;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#logo {
-    width: 200px; 
-    margin-left: 0px;
+footer p{
+    margin-left: 200px;
+}
+#insta{
+    width: 100px;
+    margin-left: 210px;
+}
+.logo {
+    width: 200px;
 }
 
 nav {
@@ -44,7 +52,7 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -79,7 +87,7 @@ a:hover{
     margin-left: 250px;
 }
 
-.mvv li{
+li{
     list-style-type: none;
 }
 .mvv h2{
