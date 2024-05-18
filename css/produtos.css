@@ -161,19 +161,15 @@ section {
 }
 
 button {
-    background-color:rgba(0, 100, 0, 0.348);
+    background-color:rgba(0, 100, 0, 0.578);
     border-radius: 5px;
-    width: 100px;
+    width: 460px;
     padding: 10px;
     margin-top: 30px;
-}
-button a{
+    cursor: pointer;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     font-size: 18px;
-    text-decoration: none;
-    color: rgb(12, 62, 12);
-
 }
 #infop h1 {
     font-size: 70px;
@@ -182,4 +178,10 @@ button a{
 
 #preco {
     margin-top: 25px;
+}
+
+#infop hr {
+    border: none;
+    border-top: 1px solid black; 
+    margin: 20px 1px; 
 }
