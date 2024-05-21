@@ -74,32 +74,37 @@ section{
     background-color:#0f9944e1;
     height: 100vh;
 }
-section h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+h1{
     color: white;
+    font-size: 60px;
 }
 #voltar a{
     text-decoration: none;
     color: white;
     display: block;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(12, 41, 12);
 }
 button {
     background-color:aliceblue;
-    border-radius: 5px;
-    width: 90px;
-    padding: 5px;
+    border-radius: 7px;
+    width: 140px;
+    padding: 16px;
     cursor: pointer;
-    margin-left: 100px;
+    margin-top: 70px;
 }
 button a{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     font-size: 18px;
     text-decoration: none;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
