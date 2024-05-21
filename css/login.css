@@ -76,6 +76,10 @@ li a {
 a:hover{
     color:rgb(185, 185, 185);
 }
+
+button:hover{
+    background-color:#437f5ce1
+}
 form{
     padding: 20px;
     border-radius: solid 4px white;
