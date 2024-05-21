@@ -81,6 +81,8 @@ nav ul li a {
     background: url('../img/fundo.jpg')
     no-repeat center center fixed;
     background-size: 100%;
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.685), 
+    0px -4px 7px rgba(255, 255, 255, 0.711);
 }
 
 a:hover{
@@ -109,11 +111,6 @@ section {
 
 h1{
     font-family:Verdana;
-}
-
-#secao1{
-    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.685), 
-    0px -4px 10px rgba(255, 255, 255, 0.711);
 }
 #empresa{
     display: grid;
