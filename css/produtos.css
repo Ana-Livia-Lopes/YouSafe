@@ -17,10 +17,11 @@ header {
 }
 
 #secao1 h1 {
-    text-shadow: #000 -2px 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
     text-align: center;
     margin-top: 50px;
     color: white;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
 
 #container {

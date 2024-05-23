@@ -79,10 +79,11 @@ li a {
 }
 
 #h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
     text-align: center;
     margin-top: 50px;
     color: white;
-    text-shadow: #000 -3px 3px
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
 
 iframe {

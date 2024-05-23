@@ -76,7 +76,8 @@ li a {
     text-align: center;
     margin-top: 50px;
     color: white;
-    text-shadow: #000 -3px 3px
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
 .dia h1{
     margin-top: 0;
