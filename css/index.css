@@ -100,24 +100,6 @@ nav ul li a {
     height: 90px;
 }
 
-#animacao{
-    visibility: hidden;
-    text-shadow: none;
-}
-
-#secao1:hover{
-    background: none;
-    background-color: rgb(36, 36, 36);
-}
-
-#secao1:hover #bem_vindo{
-    visibility: hidden;
-}
-
-#secao1:hover #animacao{
-    visibility: visible;
-}
-
 a:hover{
     color:rgb(185, 185, 185);
 }
