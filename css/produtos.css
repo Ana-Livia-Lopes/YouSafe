@@ -86,6 +86,10 @@ li a {
     text-transform: uppercase;
 }
 
+a{
+    transition: color 0.3s;
+}
+
 a:hover {
     color: rgb(185, 185, 185);
 }

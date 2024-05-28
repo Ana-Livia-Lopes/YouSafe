@@ -91,6 +91,10 @@ iframe {
     margin: 0 auto;
 }
 
+a{
+    transition: color 0.3s;
+}
+
 a:hover{
     color:rgb(185, 185, 185);
 }

@@ -79,6 +79,10 @@ li a {
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
 
+a{
+    transition: color 0.3s;
+}
+
 a:hover{
     color:rgb(185, 185, 185);
 }
