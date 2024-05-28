@@ -183,6 +183,7 @@ section {
     height: 570px;
     width: 570px;
     margin: auto;
+    border: solid white 5px;
 }
 
 #secao1 {

@@ -77,13 +77,59 @@ li a {
 #login {
     margin-left: 250px;
 }
+  
+  .left, .center, .right {
+    width: 30%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 400px;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  #rua, #numero, #bairro, #cidade, #estado, #cep {
+    width: 400px;
+    margin-left: 20px;
+  }
 
-section{
-    background-color:#0f9944e1;
-    height: 100vh;
+  #secao1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
 
 #secao1 {
+    margin-bottom: 80px;
+    background-color:#0f9944e1;
+    color: white;
+}
+
+#imp {
+  width: 100px;
+  height: 100px;
+}
+
+h4 {
+  margin-top: auto;
+  margin-bottom:10px;
+}
+
+#secao2 {
     background-color: rgb(234, 234, 234);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -91,10 +137,19 @@ section{
     gap: 20px;
 }
 
-#imp {
-    margin-left: 80px;
-    margin-top: 80px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    height: 570px;
-    width: 570px;
+button {
+    background-color: rgba(0, 100, 0, 0.578);
+    border-radius: 5px;
+    width: 460px;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button a {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(12, 41, 12);
 }
