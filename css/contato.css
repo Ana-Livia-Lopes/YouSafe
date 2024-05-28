@@ -79,10 +79,11 @@ li a {
 }
 
 #h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana;
     text-align: center;
     margin-top: 50px;
     color: white;
-    text-shadow: #000 -3px 3px
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
 }
 
 iframe {
@@ -112,6 +113,8 @@ a:hover{
     text-align: center;
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
+    text-decoration:underline white;
+    color: black;
 }
 .perfil {
     color: rgb(0, 0, 0);
@@ -123,7 +126,13 @@ a:hover{
     width: 430px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.296) 0px 50px 100px -20px, rgba(0, 0, 0, 0.389) 0px 30px 60px -30px, rgba(10, 37, 64, 0.411) 0px -2px 6px 0px inset;;
+    box-shadow: rgba(50, 50, 93, 0.296) 0px 50px 100px -20px, rgba(0, 0, 0, 0.389) 0px 30px 60px -30px, rgba(10, 37, 64, 0.411) 0px -2px 6px 0px inset;
+}
+.perfil{
+    transition: transform 0.3s ease;
+}
+.perfil:hover{
+    transform: scale(1.1);
 }
 #integrantes{
     display: grid;
