@@ -160,6 +160,9 @@ button:hover {
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 6px;
     opacity: 0;
     transition: opacity 0.3s;
 }
@@ -172,32 +175,15 @@ section {
     height: 100vh;
 }
 
-#infop {
-    color: black;
-    width: 460px;
-    padding: 20px;
-    background-color: white;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-}
-
-#imp {
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    height: 570px;
-    width: 570px;
-    margin: auto;
-    border: solid white 5px;
-}
-
 #secao1 {
     margin-bottom: 80px;
 }
 
 #secao2 {
+    height: 90vh;
     background-color: rgb(234, 234, 234);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     gap: 20px;
 }
@@ -219,13 +205,31 @@ button a {
     color: rgb(12, 41, 12);
 }
 
+#infop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 460px;
+    height: 430px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+#escrita{
+    color: black;
+}
+
 #infop h1 {
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
-#preco {
+#esp {
     margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 #infop hr {
