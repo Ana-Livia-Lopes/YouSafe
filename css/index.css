@@ -157,7 +157,7 @@ section {
 .mvv{
     margin-left: 100px;
     margin-right: 100px;
-    background: linear-gradient(to bottom, rgb(6, 6, 69) 35%, white 35%);
+    background: linear-gradient(to bottom, rgb(12, 68, 10) 35%, white 35%);
     padding: 10px;
     border-radius: 10px;
     margin-left: 10%;
@@ -170,9 +170,10 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
+    font-size: 22px;
 }
 #vermelho{
-    background: linear-gradient(to bottom, rgb(209, 0, 0) 35%, white 35%);
+    background: linear-gradient(to bottom, rgb(12, 68, 10) 35%, white 35%);
 }
 .imgmvv{
     width: 100px;
