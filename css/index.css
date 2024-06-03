@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(228, 226, 226);
+    background-color: rgb(22, 160, 79);
     font-size:x-large;
 }
 
@@ -158,7 +158,7 @@ section {
 .mvv{
     margin-left: 100px;
     margin-right: 100px;
-    background: linear-gradient(to bottom, rgb(12, 68, 10) 35%, white 35%);
+    background: linear-gradient(to bottom, rgb(10, 78, 44) 35%, white 35%);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 10px;
     border-radius: 10px;
@@ -175,11 +175,18 @@ section {
     font-size: 22px;
 }
 #vermelho{
-    background: linear-gradient(to bottom, rgb(12, 68, 10) 35%, white 35%);
+    background: linear-gradient(to bottom, rgb(10, 78, 44) 35%, white 35%);
 }
+
 .imgmvv{
     width: 100px;
     border-radius: 100%;
     margin-bottom: 8%;
-    margin-top: 5%;
+    margin-top: 2%;
+    filter: brightness(0) saturate(100%) invert(22%) sepia(10%) saturate(4098%) hue-rotate(100deg) brightness(95%) contrast(92%);
+}
+
+#backg{
+    background-color: white;
+    border-radius:150px;
 }
