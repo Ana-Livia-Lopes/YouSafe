@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(22, 160, 79);
+    background: radial-gradient(circle, rgb(36, 185, 86) 0%, rgb(20, 136, 68) 100%);
     font-size:x-large;
 }
 
@@ -70,9 +70,9 @@ nav ul li {
 nav ul li a {
     color:black;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-family: "Outfit", sans-serif;
     text-transform: uppercase;
 }
 
@@ -81,16 +81,21 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 55px;
-    background-color: rgb(124, 124, 124);
-    background: url('../img/fundo.jpg')
-    no-repeat center center;
     background-size: 100%;
     text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.685), 
     0px -4px 7px rgba(255, 255, 255, 0.558);
 }
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:absolute;
+    z-index: -1;
+ }
 
 #secao3{
     display: flex;
@@ -98,16 +103,11 @@ nav ul li a {
     align-items: center;
 }
 
-video{
+#anim{
     width: 900px;
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.281) 0px 15px 25px, rgba(0, 0, 0, 0.178) 0px 5px 10px;
-    transition: box-shadow 0.6s;
-}
-
-video:hover{
-    box-shadow: rgba(197, 197, 197, 0.253) 0px 15px 25px, rgba(167, 167, 167, 0.281) 0px 5px 10px;
 }
 
 a{
@@ -133,7 +133,7 @@ section {
     margin-top: 70px;
     font-size: 40px;
     text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.8);
-    font-family:Verdana;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #empresa{
@@ -149,6 +149,7 @@ section {
 }
 
 .mvv h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 50px;
     text-shadow: rgb(0, 0, 0) -3px 3px;
@@ -156,11 +157,10 @@ section {
     margin-bottom: 10px;
 }
 .mvv{
-    margin-left: 100px;
-    margin-right: 100px;
+    font-family: "Outfit", sans-serif;
     background: linear-gradient(to bottom, rgb(10, 78, 44) 35%, white 35%);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.164) 0px 54px 55px, rgba(0, 0, 0, 0.089) 0px -12px 30px, rgba(0, 0, 0, 0.082) 0px 4px 6px, rgba(0, 0, 0, 0.116) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 15px;
     border-radius: 10px;
     margin-left: 10%;
     margin-right: 10%;
@@ -168,14 +168,47 @@ section {
     flex-direction: column;
     align-items: center;
 }
-.mvv p, .mvv ul{
+
+#primeiro{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     font-size: 22px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
-#vermelho{
-    background: linear-gradient(to bottom, rgb(10, 78, 44) 35%, white 35%);
+
+#primeiro:hover{
+    top: -20px;
+}
+
+#segundo{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#segundo:hover{
+    top: -20px;
+}
+
+#terceiro{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 22px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+#terceiro:hover{
+    top: -20px;
 }
 
 .imgmvv{

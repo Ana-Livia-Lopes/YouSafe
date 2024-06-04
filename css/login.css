@@ -75,13 +75,18 @@ li a {
     text-transform: uppercase;
 }
 
-a:hover{
-    color:rgb(185, 185, 185);
+#ig:hover{
+    color: #a1e2bde1;
+}
+
+button:hover a{
+    color: #8bcaa6e1;
 }
 
 button:hover{
-    background-color:#437f5ce1
+    background-color:#437f5ce1;
 }
+
 form{
     padding: 20px;
     border-radius: solid 4px white;
@@ -94,7 +99,7 @@ form{
 }
 
 label{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    font-family: "Outfit", sans-serif;
 }
 
 #fundo{
@@ -131,8 +136,10 @@ button{
     margin-top: 6px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 button a {
+    font-family: "Outfit", sans-serif;
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -145,7 +152,15 @@ button a {
     margin-top: 20px;
     font-weight: bold;
     font-size: 18px;
+    position: relative;
+    right: 0;
+    transition: right ease 0.5s;
 }
+
+#voltar:hover a{
+    right: -10px;
+}
+
 #img-login{
     width: 230px;
     display: block;
@@ -166,6 +181,7 @@ button a {
     text-align: center;
 }
 #acesso{
+    font-family: "Outfit", sans-serif;
     color: white;
     font-size: 17px;
     margin-top: 15px;

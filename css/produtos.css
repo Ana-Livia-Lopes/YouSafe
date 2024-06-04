@@ -80,9 +80,9 @@ li {
 li a {
     color: black;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-family: "Outfit", sans-serif;
     text-transform: uppercase;
 }
 
@@ -111,8 +111,13 @@ button:hover {
     margin: auto;
 }
 
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .cntd {
-    font-size: 23px;
+    font-family: "Outfit", sans-serif;
+    font-size: 21px;
 }
 
 #infos {
@@ -217,7 +222,7 @@ button a {
     justify-content: center;
     margin: auto;
     width: 460px;
-    height: 430px;
+    height: 450px;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
@@ -226,16 +231,18 @@ button a {
 
 #escrita{
     color: black;
+    font-family: "Outfit", sans-serif;
 }
 
 #infop h1 {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #esp {
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #infop hr {
