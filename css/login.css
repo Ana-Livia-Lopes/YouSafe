@@ -4,8 +4,9 @@
 }
 
 body {
+    
     font-family: Arial, sans-serif;
-    background-color:#168f48e1;
+    background-image: url(../img/bckg-login.jpeg);
     font-size:x-large;
     opacity: 0;
     animation: fadeIn 1s forwards; 
@@ -26,7 +27,7 @@ header {
     align-items: center;
 }
 footer{
-    background-color: #0c8a3cdc;
+    background-color: #055223c4;
     color: white;
     text-align: left;
     padding: 10px;
@@ -79,11 +80,11 @@ li a {
     color: #a1e2bde1;
 }
 
-button:hover a{
+#entrar:hover a{
     color: #8bcaa6e1;
 }
 
-button:hover{
+#entrar:hover{
     background-color:#437f5ce1;
 }
 
@@ -103,7 +104,7 @@ label{
 }
 
 #fundo{
-    background-color: #0f9944e1;
+    background-color: #ffffff;
     border-radius: 10px;
     padding: 40px;
     
@@ -117,19 +118,21 @@ input{
     width: 95%;
     padding: 6px;
     margin-bottom: 10px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    font-size: 15px;
+    border: 2px solid rgb(180, 180, 180);
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    font-size: 17px;
 }
 .formulario{
     margin-top: 18px;
     font-size: 17px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #notifica-email, #notifica-sms{
     width: 15px;
 }
-button{
+#entrar{
     width: 98%;
     background-color: #245e3ce1;
     padding: 7px;
@@ -138,7 +141,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-button a {
+#entrar a {
     font-family: "Outfit", sans-serif;
     color: white;
     font-size: 15px;
@@ -147,7 +150,7 @@ button a {
 }
 #voltar a{
     text-decoration: none;
-    color: white;
+    color: black;
     display: block;
     margin-top: 20px;
     font-weight: bold;
@@ -162,10 +165,10 @@ button a {
 }
 
 #img-login{
-    width: 230px;
+    width: 255px;
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-bottom: 15px;
 }
 #bodylogin{
     background-color: white;
@@ -177,12 +180,14 @@ button a {
 }
 #fundo h2{
     margin-top: 10px;
-    color: white;
+    color: rgb(53, 53, 53);
     text-align: center;
+    margin-bottom: 25px;
+    font-family: "Outfit", sans-serif;
 }
 #acesso{
     font-family: "Outfit", sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 17px;
     margin-top: 15px;
 }
