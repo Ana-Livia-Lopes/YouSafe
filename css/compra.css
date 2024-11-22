@@ -120,8 +120,8 @@ button {
 }
 button a{
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
-    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
     text-decoration: none;
 }
 #texto{

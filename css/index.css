@@ -3,15 +3,15 @@
     padding: 0;
 }
 
+body{
+    background-color: whitesmoke;
+    
+}
 header {
     background-color:white;
     color:white;
     padding: 10px;
     text-align: center;
-}
-body{
-    background-color: whitesmoke;
-
 }
 #container {
     max-width: 1300px;
@@ -20,28 +20,52 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
-footer{
-    background-color:white;
+header nav {
+    width: 1000px;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul li {
+    padding: 16px;
+}
+header nav ul li a{
     color:black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color:rgb(185, 185, 185);
+}
+#login {
+    margin-left: 250px;
+}
+footer{
+    background-color: white;
+    color:black;
+    font-family: Arial, sans-serif;
     text-align: left;
     padding: 10px;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:Arial, Helvetica, sans-serif;
 }
-
 footer p{
+    font-family: Arial, sans-serif; 
     margin-left: 200px;
 }
-
 footer a{
+    font-family: Arial, sans-serif;
     text-decoration: none;
     color: black;
 }
-
 #insta{
     width: 70px;
     margin-left: 210px;
@@ -49,29 +73,6 @@ footer a{
 
 .logo {
     width: 180px;
-}
-
-nav {
-    width: 1000px;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav ul li {
-    padding: 16px;
-}
-
-nav ul li a {
-    color:black;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "Outfit", sans-serif;
-    text-transform: uppercase;
 }
 
 #secao1{
@@ -91,7 +92,6 @@ nav ul li a {
     width: 564px;
     height: 620px;
     margin-top: 50px;
-    object-fit: cover;
     border-radius: 280px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
@@ -103,7 +103,6 @@ nav ul li a {
     margin-top: 20px;
 }
 .text-1{
-    
     width: 50%;
 }
 #background-video {
@@ -114,33 +113,17 @@ nav ul li a {
     z-index: -1;
  }
 
- 
  #anim{
      width: 900px;
      margin-top: 50px;
      border-radius: 10px;
      box-shadow: rgba(0, 0, 0, 0.281) 0px 15px 25px, rgba(0, 0, 0, 0.178) 0px 5px 10px;
     }
-    
-a{
-    transition: color 0.3s;
-}
-
-a:hover{
-    color:rgb(185, 185, 185);
-}
-
-#login {
-    margin-left: 250px;
-}
-
 section {
     height: 100vh;
     color: white;
 }
-#secao2{
-    background-color: whitesmoke;
-}
+
 #secao2 h2{
     text-align: center;
     font-size: 45px;

@@ -6,6 +6,7 @@
 
 body {
     background-color: #f9f9f9;
+    font-family: 'Inter', sans-serif;
     color: #333;
 }
 header {
@@ -29,8 +30,16 @@ header nav ul {
     display: flex;
     justify-content: space-evenly;
 }
-header nav ul li a {
+header nav ul li {
     padding: 16px;
+}
+header nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
     transition: color 0.3s;
 }
 header nav ul li a:hover {
@@ -69,12 +78,11 @@ header nav ul li a:hover {
     font-size: 55px;
     color: #0f9944;
     margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
 }
 .bloco p, .dia h3{
-    font-family: 'Outfit', sans-serif;
     font-size: 25px;
     padding: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .conteudo1 {
     max-width: 1000px;
@@ -92,14 +100,12 @@ header nav ul li a:hover {
 }
 .bloco h2, .noticia h2 , .dia h2{
     color: #0f9944;
-    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     
 }
 .dia p{
     margin-top: 26px;
     font-size: 24px;
-    font-family: 'Outfit', sans-serif;
     text-align: justify;
 }
 #noticias img {
