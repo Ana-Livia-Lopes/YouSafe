@@ -88,18 +88,17 @@ nav ul li a {
     background-size: 100%;
 }
 #secao1 img{
-    width: 574px;
-    height: 640px;
-    margin-top: 30px;
+    width: 564px;
+    height: 620px;
+    margin-top: 50px;
     object-fit: cover;
-    border-top-left-radius: 273px;
-    border-top-right-radius: 273px;
+    border-radius: 280px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 #secao1 p{
     color: rgb(24, 38, 20);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 30px;
+    font-size: 27px;
     color: #4e4d4d;
     margin-top: 20px;
 }
