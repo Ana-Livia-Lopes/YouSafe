@@ -89,11 +89,13 @@ footer a{
     background-size: 100%;
 }
 #secao1 img{
-    width: 564px;
-    height: 620px;
     margin-top: 50px;
     border-radius: 280px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+    margin-left: 60PX;
 }
 #secao1 p{
     color: rgb(24, 38, 20);
